@@ -117,7 +117,6 @@ export default function Hero({ activeSection }: { activeSection?: string }) {
               className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-white tracking-tight leading-tight"
             >
               Hi, I'm <span className="bg-gradient-to-r from-neon-blue via-sky-300 to-neon-purple bg-clip-text text-transparent">Ponmalar S</span>
-              <span className="inline-block animate-bounce ml-2">👋</span>
             </motion.h1>
 
             {/* Dynamic Typing Title */}
