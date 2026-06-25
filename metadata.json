@@ -1,0 +1,6 @@
+{
+  "name": "Ponmalar S Portfolio",
+  "description": "Premium personal portfolio website for Ponmalar S - Cybersecurity Specialist and Web Developer",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
