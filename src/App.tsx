@@ -130,7 +130,7 @@ export default function App() {
                   <span>LOC: <span className="text-white">COIMBATORE // IND</span></span>
                 </div>
                 <div className="text-white/30 text-[10px]">
-                  © {new Date().getFullYear()} Ponmalar S. All rights reserved. Decoupled web stack.
+                  © {new Date().getFullYear()} Anizaa. All rights reserved. Decoupled web stack.
                 </div>
               </div>
             </footer>

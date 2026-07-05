@@ -116,7 +116,7 @@ export default function Hero({ activeSection }: { activeSection?: string }) {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-white tracking-tight leading-tight"
             >
-              Hi, I'm <span className="bg-gradient-to-r from-neon-blue via-sky-300 to-neon-purple bg-clip-text text-transparent">Ponmalar S</span>
+              Hi, I'm <span className="bg-gradient-to-r from-neon-blue via-sky-300 to-neon-purple bg-clip-text text-transparent">Anizaa</span>
             </motion.h1>
 
             {/* Dynamic Typing Title */}

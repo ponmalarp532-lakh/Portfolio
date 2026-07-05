@@ -72,7 +72,7 @@ export default function Header({ activeSection }: HeaderProps) {
             </div>
             <div>
               <span className="font-display font-bold tracking-wider text-white">
-                PONMALAR<span className="text-neon-blue">.</span>S
+                ANIZAA<span className="text-neon-blue">.</span>
               </span>
               <div className="text-[9px] font-mono tracking-widest text-white/50 leading-none uppercase">
                 Secure Port
