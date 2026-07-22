@@ -38,13 +38,13 @@ export interface HighlightItem {
 }
 
 export const RESUME_DATA = {
-  name: "Anizaa",
-  title: "Cybersecurity Analyst & Web Developer",
-  summary: "Technology enthusiast with a proven track record of transforming ideas into deployed applications. Built and maintained multiple web-based solutions, participated in winning hackathon teams, and actively explores cybersecurity through hands-on security projects and research. Combining software engineering, problem-solving, and security-focused thinking to create reliable and secure digital solutions.",
-  email: "anizaa@gmail.com",
+  name: "Ponmalar S",
+  title: "Full Stack Developer & Freelancer",
+  summary: "Technology enthusiast with a proven track record of transforming ideas into deployed applications. Built and maintained multiple web-based solutions, participated in winning hackathon teams, and creates reliable full-stack applications and custom freelance web solutions. Combining software engineering, modern web frameworks, problem-solving, and security-focused thinking to create robust digital solutions.",
+  email: "ponmalars25@gmail.com",
   phone: "+91 93426 78360",
-  github: "https://github.com/anizaa",
-  linkedin: "https://linkedin.com/in/anizaa",
+  github: "https://github.com/Ponmalar-S",
+  linkedin: "https://linkedin.com/in/ponmalar-s",
   education: [
     {
       institution: "CMS College of Engineering and Technology",

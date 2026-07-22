@@ -72,10 +72,10 @@ export default function Header({ activeSection }: HeaderProps) {
             </div>
             <div>
               <span className="font-display font-bold tracking-wider text-white">
-                ANIZAA<span className="text-neon-blue">.</span>
+                PONMALAR<span className="text-neon-blue">.</span>S
               </span>
               <div className="text-[9px] font-mono tracking-widest text-white/50 leading-none uppercase">
-                Secure Port
+                Full Stack Dev
               </div>
             </div>
           </motion.div>

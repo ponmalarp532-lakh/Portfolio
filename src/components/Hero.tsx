@@ -11,10 +11,10 @@ export default function Hero({ activeSection }: { activeSection?: string }) {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const titles = [
-    "Cybersecurity Specialist",
-    "Vulnerability Assessor",
-    "Web Security Researcher",
-    "Full-Stack Developer"
+    "Full-Stack Developer",
+    "Freelance Web Developer",
+    "Frontend & Backend Engineer",
+    "Custom Web Application Developer"
   ];
 
   const typingSpeed = 100;
@@ -107,7 +107,7 @@ export default function Hero({ activeSection }: { activeSection?: string }) {
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-neon-blue/20 bg-neon-blue/5 text-neon-blue text-xs font-mono tracking-widest uppercase mb-6 self-start"
             >
               <Cpu className="w-3.5 h-3.5 animate-spin-slow text-neon-blue" />
-              <span>Security System Active</span>
+              <span>Full Stack Developer & Freelancer</span>
             </motion.div>
 
             <motion.h1
@@ -116,7 +116,7 @@ export default function Hero({ activeSection }: { activeSection?: string }) {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-white tracking-tight leading-tight"
             >
-              Hi, I'm <span className="bg-gradient-to-r from-neon-blue via-sky-300 to-neon-purple bg-clip-text text-transparent">Anizaa</span>
+              Hi, I'm <span className="bg-gradient-to-r from-neon-blue via-sky-300 to-neon-purple bg-clip-text text-transparent">Ponmalar S</span>
             </motion.h1>
 
             {/* Dynamic Typing Title */}

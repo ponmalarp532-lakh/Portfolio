@@ -17,7 +17,7 @@ export default function Contact({ activeSection }: { activeSection?: string }) {
 
   // Simple Markdown file generator of the entire resume data
   const handleDownloadResume = () => {
-    const markdownContent = `# ANIZAA - CYBERSECURITY & WEB DEVELOPMENT RESUME
+    const markdownContent = `# PONMALAR S - FULL STACK DEVELOPER & FREELANCER RESUME
 
 ## CONTACT DETAILS
 - **Phone:** ${RESUME_DATA.phone}
@@ -52,7 +52,7 @@ ${RESUME_DATA.highlights.map(h => `- **${h.title}:** ${h.description}`).join("\n
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.setAttribute("download", "Anizaa_Resume.md");
+    link.setAttribute("download", "Ponmalar_S_Resume.md");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -174,7 +174,7 @@ ${RESUME_DATA.highlights.map(h => `- **${h.title}:** ${h.description}`).join("\n
                 >
                   <Github className="w-6 h-6 text-white/60 group-hover:text-neon-blue group-hover:scale-110 transition-all mb-2" />
                   <span className="text-xs font-display font-semibold text-white">GitHub Code</span>
-                  <span className="text-[9px] font-mono text-white/40 mt-1 uppercase tracking-wider">anizaa</span>
+                  <span className="text-[9px] font-mono text-white/40 mt-1 uppercase tracking-wider">Ponmalar-S</span>
                 </a>
 
                 <a
@@ -186,7 +186,7 @@ ${RESUME_DATA.highlights.map(h => `- **${h.title}:** ${h.description}`).join("\n
                 >
                   <Linkedin className="w-6 h-6 text-white/60 group-hover:text-neon-purple group-hover:scale-110 transition-all mb-2" />
                   <span className="text-xs font-display font-semibold text-white">LinkedIn Net</span>
-                  <span className="text-[9px] font-mono text-white/40 mt-1 uppercase tracking-wider">anizaa</span>
+                  <span className="text-[9px] font-mono text-white/40 mt-1 uppercase tracking-wider">ponmalar-s</span>
                 </a>
               </div>
             </div>
